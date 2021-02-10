@@ -5,7 +5,7 @@ const { COLOR } = require("../config.json");
 
 module.exports = {
   name: "skip",
-  description: "Skip the song or shift yourself to next song",
+  description: "SKIP THE SONG OR SHIFT YOURSELFSkip the song or shift yourself to next song",
   async execute(client, message, args) {
    
     

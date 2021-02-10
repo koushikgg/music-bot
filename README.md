@@ -1,3 +1,7 @@
-# Get Started!
+# Discord-Music-Bot
 
-Add files and start typing 🎉
+(UPDATED : 13/12/20)
+
+
+
+JOIN THE SERVER : https://discord.gg/cV2ENjt

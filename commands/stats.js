@@ -5,7 +5,7 @@ const ms = require("ms")
 
 module.exports = {
   name: "stats",
-  description: "Get the detailed information of bot",
+  description: "GEGet the detailed information of bot",
   execute(client, message, args) {
     console.log(client.queue.size)
     let embed = new MessageEmbed()

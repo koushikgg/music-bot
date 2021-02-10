@@ -3,6 +3,6 @@ module.exports = {
   name: "ping",
   description: "SHOW BOT SILENT PING",
   execute(client, message) {
-    message.channel.send("PONG :)");
+    message.channel.send("✅|PONG");
   }
 };

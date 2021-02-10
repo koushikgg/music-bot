@@ -49,7 +49,7 @@ module.exports = {
       vote.vote++;
       vote.voters.push(message.author.id);
       return message.channel.send(
-        `You Voted for the Song to Skip, btw we currently need ${Math.floor(
+        `✅|YOU VOTED FOR THE SONG TO SKIPY, BTW WE CURRENTLY NEED ${Math.floor(
           vcvote - vote.vote
         )} votes`
       );

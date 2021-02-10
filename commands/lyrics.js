@@ -10,7 +10,7 @@ module.exports = {
   async execute(client, message, args) {
     let embed = new MessageEmbed()
       .setDescription("LOOKING FOR LYRICS")
-      .setColor("BLUE");
+      .setColor("#0000FF");
 
     if (!args.length) {
       return message.channel.send("PLEASE GIVE THE SONG NAME");

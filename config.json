@@ -3,6 +3,6 @@
   "TOKEN": "NzkyNjI3MTI2MDM3Nzc0MzM2.X-gdiQ.4LPwszZfxrgug7M5y78QFsOaTfE",
   "YOUTUBE_API_KEY": "AIzaSyBQoFoHSThiADXuKtnSpKNRnxIboQI54UM",
   "QUEUE_LIMIT": 20,
-  "COLOR": "BLUE",
+  "COLOR": "#0000FF",
   "inviteURL": "https://discord.com/api/oauth2/authorize?client_id=792627126037774336&permissions=0&redirect_uri=https%3A%2F%2Fbnt69.ml%2F&scope=bot"
 }

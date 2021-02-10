@@ -134,7 +134,7 @@ module.exports = {
         return message.channel
           .send({
             embed: {
-              description: `😭 | COULD NOT JOIN CHANNELCould not join the channel: ${error}`,
+              description: `😭 | COULD NOT JOIN CHANNEL: ${error}`,
               color: "#ff2050"
             }
           })

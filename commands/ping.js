@@ -1,7 +1,7 @@
 //FIRST TEST HANDLER IS WORKING OR NOT
 module.exports = {
   name: "ping",
-  description: "Pinging the bot",
+  description: "SHOW BOT SILENT PING",
   execute(client, message) {
     message.channel.send("PONG :)");
   }

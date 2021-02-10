@@ -6,14 +6,14 @@ const { COLOR } = require("../config.json");
 
 module.exports = {
   name: "lyrics",
-  description: "Get lyrics of song",
+  description: "GET LYRICS OF SONG",
   async execute(client, message, args) {
     let embed = new MessageEmbed()
-      .setDescription("Looking For Lyrics ...")
-      .setColor("YELLOW");
+      .setDescription("LOOKING FOR LYRICS")
+      .setColor("BLUE");
 
     if (!args.length) {
-      return message.channel.send("Please Give The Song Name");
+      return message.channel.send("PLEASE GIVE THE SONG NAME");
     }
 
     const msg = await message.channel.send(embed);
@@ -24,7 +24,7 @@ module.exports = {
       if (lyrics.length > 4095) {
         msg.delete();
         return message.channel.send(
-          "Lyrics are too long to be returned as embed"
+          "LYRICS ARE TOO LONG TO BE RETURNED AS EMBED"
         );
       }
       if (lyrics.length < 2048) {
@@ -45,7 +45,7 @@ module.exports = {
         return;
       }
     } catch (e) {
-      embed.setDescription("Got err : " + e);
+      embed.setDescription("GOT ERROR" + e);
       msg.edit(embed);
       console.log(e);
     }

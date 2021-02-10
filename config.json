@@ -1,8 +1,8 @@
 {
-  "PREFIX": "x!", 
-  "TOKEN": "NzI1MDI2NDg3NjE0MzA4NDMz.XvIviA.bT-81vyiha68v1WCSn-9EdudJUM", 
+  "PREFIX": ".",
+  "TOKEN": "ODAwNzI2NTU0MTU4MTcwMTEy.YAWUtw.-dZya37JvqFhY_cjG2j9oOCvJNg",
   "YOUTUBE_API_KEY": "AIzaSyBQoFoHSThiADXuKtnSpKNRnxIboQI54UM",
   "QUEUE_LIMIT": 0,
   "COLOR": "BLUE",
-  "inviteURL": "BOT INVITE URL" 
+  "inviteURL": "https://discord.com/api/oauth2/authorize?client_id=792627126037774336&permissions=0&redirect_uri=https%3A%2F%2Fbnt69.ml%2F&scope=bot"
 }

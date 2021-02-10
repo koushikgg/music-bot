@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 const { COLOR } = require("../config.json");
 module.exports = {
   name: "volume",
-  description: "Manage the volume of the song",
+  description: "MANAGE THE VOLUME OF THE SONG",
   execute(client, message, args) {
     if (!message.member.hasPermission("ADMINISTRATOR")) {
       return message.channel.send(
@@ -15,7 +15,7 @@ module.exports = {
 
     const { channel } = message.member.voice;
     if (!channel) {
-      //IF AUTHOR IS NOT IN VOICE CHANNEL
+      //fuck you
       embed.setAuthor("YOU NEED TO BE IN VOICE CHANNEL");
       return message.channel.send(embed);
     }

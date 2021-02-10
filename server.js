@@ -10,7 +10,7 @@ const { TOKEN, PREFIX } = require("./config.json");
 //CLIENT EVENTS
 client.on("ready", () => {
   console.log("BIT IS READY MADE BY SAURABH");
-  client.user.setActivity("x!help | Musix");
+  client.user.setActivity("bnt69.ml | .play any song");
 });
 
 client.on("warn", info => console.log(info));
@@ -62,7 +62,7 @@ client.on("message", message => {
     } catch (err) {
       //IF IT CATCH ERROR
       console.log(err);
-      message.reply("I am getting error on using this command");
+      message.reply("ɪ ᴀᴍ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ ᴏɴ ᴜꜱɪɴɢ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ");
     }
   }
 });

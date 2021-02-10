@@ -48,7 +48,10 @@ module.exports = {
 
     dispatcher.setVolumeLogarithmic(queue.volume / 100); //VOLUME
     embed
-      .setAuthor("Started Playing Song", message.client.user.displayAvatarURL())
+      .setAuthor(
+        "✅|STARTED PLAYING SONG",
+        message.client.user.displayAvatarURL()
+      )
       .setDescription(`**[${song.title}](${song.url})**`);
 
     queue.textChannel

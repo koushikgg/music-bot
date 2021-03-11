@@ -10,7 +10,7 @@ const { TOKEN, PREFIX } = require("./config.json");
 //CLIENT EVENTS
 client.on("ready", () => {
   console.log("BIT IS READY MADE BY SAURABH");
-  client.user.setActivity("bnt69.ml | .play any song");
+  client.user.setActivity("${prefix}help | .play any song");
 });
 
 client.on("warn", info => console.log(info));

@@ -9,8 +9,8 @@ const { TOKEN, PREFIX } = require("./config.json");
 
 //CLIENT EVENTS
 client.on("ready", () => {
-  console.log("BIT IS READY MADE BY SAURABH");
-  client.user.setActivity("${prefix}help | .play any song");
+  console.log("BOT IS READY MADE BY SAURABH");
+  client.user.setActivity("${prefix}help |MUSICAL ERA BETA");
 });
 
 client.on("warn", info => console.log(info));

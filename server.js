@@ -8,9 +8,11 @@ const { join } = require("path");
 const { TOKEN, PREFIX } = require("./config.json");
 
 //CLIENT EVENTS
-client.on("ready", () => {
-  console.log("BOT IS READY MADE BY SAURABH");
-  client.user.setActivity("${prefix}help |MUSICAL ERA BETA");
+client.on("ready", async () => {
+  console.log(`ready!`);
+  client.user
+    .setActivity(`${prefix}help | MADE BY MUSICAL ERA BETA VER`, { type: "WATCHING" })
+    .catch(error => console.log(error));
 });
 
 client.on("warn", info => console.log(info));

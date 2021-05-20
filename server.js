@@ -11,7 +11,7 @@ const { TOKEN, PREFIX } = require("./config.json");
 client.on("ready", async () => {
   console.log(`ready!`);
   client.user
-    .setActivity(`${prefix}help | MADE BY MUSICAL ERA BETA VER`, { type: "WATCHING" })
+    .setActivity(`${prefix}help`, { type: "WATCHING" })
     .catch(error => console.log(error));
 });
 
